@@ -36,9 +36,6 @@ def double_then_sum(array)
     return sum
 end
 
-
-
-
 def multiple_cases(array)
     array.each do |string|
         puts string.upcase
@@ -46,7 +43,6 @@ def multiple_cases(array)
         puts string.capitalize
     end
 end
-
 def every_other(array)
     array.each_with_index do |number, index|
         if index.even?
@@ -56,3 +52,5 @@ def every_other(array)
         end
     end
 end
+
+
